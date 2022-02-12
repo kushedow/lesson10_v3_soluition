@@ -1,5 +1,4 @@
 import json
-from pprint import pprint as pp
 
 
 def load_candidates():
@@ -48,5 +47,3 @@ def build_preformnatted_list(candidates):
         page_content += "\n"
 
     return "<pre>"+page_content+"</pre>"
-
-
