@@ -33,4 +33,4 @@ def page_candidate(uid):
     return page_content
 
 
-app.run()
+app.run(debug=True)
